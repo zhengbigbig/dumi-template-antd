@@ -39,7 +39,7 @@
   },
   "dependencies": {
     "@amap/amap-jsapi-loader": "0.0.7",
-    "@ant-design/icons": "4.6.2",
+    "@ant-design/icons": "^4.7.0",
     "antd": "^4.17.2"
   },
   "peerDependencies": {
