@@ -8,12 +8,12 @@ export default defineConfig({
   title: 'HDD Design',
   favicon: '/xxx',
   logo: '/xxx',
-  // base: '/p/frontend/hdd/dist/#/',
+  // base: '/dumi-template-antd/',
   lessLoader: lessConfig,
   mode: 'site',
   menus: menuConfig,
   navs: navConfig,
-  publicPath: '/',
+  publicPath: '/dumi-template-antd/',
   // chainWebpack(memo, { env, webpack, createCSSRule }) {
   //   console.log(memo.output.publicPath)
   //   // memo.output.publicPath = ()
