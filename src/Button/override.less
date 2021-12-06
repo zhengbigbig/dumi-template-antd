@@ -1,0 +1,17 @@
+@btn-prefix-cls: ~'@{ant-prefix}-btn';
+
+.@{btn-prefix-cls} {
+  // color: @content-color;
+  box-shadow: none;
+  > .@{iconfont-css-prefix} + span {
+    margin-left: 4px;
+  }
+  &-link {
+    padding: 0;
+    border: none;
+    height: auto;
+  }
+  &>.@{iconfont-css-prefix} {
+    font-size: 16px;
+  }
+}
